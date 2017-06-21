@@ -1,0 +1,105 @@
+{
+ "греческий салат": [
+  {
+   "ingredient_name": "Сыр",
+   "quantity": 300,
+   "measure": "г"
+  },
+  {
+   "ingredient_name": "Маслины",
+   "quantity": 10,
+   "measure": "шт"
+  },
+  {
+   "ingredient_name": "Огурцы",
+   "quantity": 2,
+   "measure": "шт"
+  },
+  {
+   "ingredient_name": "Помидор",
+   "quantity": 2,
+   "measure": "шт"
+  },
+  {
+   "ingredient_name": "Оливковое масло",
+   "quantity": 5,
+   "measure": "мл"
+  },
+  {
+   "ingredient_name": "Лук",
+   "quantity": 1,
+   "measure": "шт"
+  },
+  {
+   "ingredient_name": "Болгарский перец",
+   "quantity": 1,
+   "measure": "шт"
+  }
+ ],
+ "омлет": [
+  {
+   "ingredient_name": "Яйцо",
+   "quantity": 2,
+   "measure": "шт"
+  },
+  {
+   "ingredient_name": "Молоко",
+   "quantity": 50,
+   "measure": "г"
+  },
+  {
+   "ingredient_name": "Помидор",
+   "quantity": 1,
+   "measure": "шт"
+  }
+ ],
+ "сырники": [
+  {
+   "ingredient_name": "Творог",
+   "quantity": 500,
+   "measure": "г"
+  },
+  {
+   "ingredient_name": "Мука",
+   "quantity": 100,
+   "measure": "г"
+  },
+  {
+   "ingredient_name": "Яйцо",
+   "quantity": 1,
+   "measure": "шт"
+  },
+  {
+   "ingredient_name": "Сахар",
+   "quantity": 15,
+   "measure": "г"
+  },
+  {
+   "ingredient_name": "Сливочное масло",
+   "quantity": 30,
+   "measure": "г"
+  }
+ ],
+ "котлета куриная": [
+  {
+   "ingredient_name": "Фарш",
+   "quantity": 600,
+   "measure": "г"
+  },
+  {
+   "ingredient_name": "Картофель",
+   "quantity": 100,
+   "measure": "гр"
+  },
+  {
+   "ingredient_name": "Лук",
+   "quantity": 2,
+   "measure": "шт"
+  },
+  {
+   "ingredient_name": "Чеснок",
+   "quantity": 25,
+   "measure": "гр"
+  }
+ ]
+}
