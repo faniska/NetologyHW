@@ -5,7 +5,7 @@ def get_cook_book(filename):
             dish = line.strip().lower()
             number_of_ing = int(f.readline())
             ingredients = []
-            while number_of_ing:
+            for i in range(number_of_ing):
                 ingredient = f.readline().split('|')
                 ingredients.append(
                     {
@@ -14,11 +14,8 @@ def get_cook_book(filename):
                         'measure': ingredient[2].strip()
                     }
                 )
-                number_of_ing -= 1
             cook_book[dish] = ingredients
-            empty_row = f.readline().strip()
-            if empty_row == '':
-                continue
+            f.readline()  # Читаем разделительную пустую строку
     return cook_book
 
 
