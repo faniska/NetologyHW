@@ -41,7 +41,7 @@
 # на зачёт с отличием, использовать папку 'Advanced Migrations'
 
 import glob
-import os.path
+import os
 
 migrations = 'Migrations'
 
@@ -60,13 +60,17 @@ def init_search(files, placeholder='Введите искомое слово:'):
     count = len(founded_files)
 
     if count > 0:
-        print('Всего: ', count)
+        print('Всего: {}'.format(count))
         init_search(founded_files, 'Введите слово, чтобы искать по найденным файлам:')
     else:
         print('Не удалось найти файлы по введенному ключевому слову')
         init_search(files)
 
-
-files = glob.glob(os.path.join(migrations, "*.sql"))
+files = []
+scan = os.scandir(migrations)
+for entry in scan:
+    filename, file_extension = os.path.splitext(entry.path)
+    if entry.is_file() and file_extension.lower() == '.sql':
+        files.append(entry.path)
 
 init_search(files)
