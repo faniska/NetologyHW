@@ -3,8 +3,6 @@ import glob
 import os
 
 dir_name = os.path.dirname(__file__)
-print(dir_name)
-
 dir_path = os.path.join(dir_name, 'Source')
 
 
